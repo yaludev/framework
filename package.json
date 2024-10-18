@@ -1,0 +1,14 @@
+{
+  "name": "@yaludev/framework",
+  "version": "0.0.1",
+  "description": "Framework design to improve developer experience and SOLID principal",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "isurindu prabashwara",
+  "license": "ISC",
+  "dependencies": {
+  }
+}
