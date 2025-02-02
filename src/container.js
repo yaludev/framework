@@ -25,4 +25,3 @@ class Container {
   }
   
   module.exports = new Container();
-  

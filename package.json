@@ -2,13 +2,26 @@
   "name": "@yaludev/framework",
   "version": "0.0.1",
   "description": "Framework design to improve developer experience and SOLID principal",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "jest"
   },
   "keywords": [],
   "author": "isurindu prabashwara",
   "license": "ISC",
+  "_moduleAliases": {
+    "@yf": "./src"
+  },
   "dependencies": {
+    "amqplib": "^0.10.4",
+    "express": "^5.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "module-alias": "^2.2.3",
+    "morgan": "^1.10.0",
+    "require-all": "^3.0.0",
+    "require-from-string": "^2.0.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }
